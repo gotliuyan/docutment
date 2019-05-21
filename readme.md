@@ -1,7 +1,10 @@
-# kubeadm 安装kubernetes 集群
+# 常用脚本和配置文件
 
-```bash
-kubeadm init --apiserver-advertise-address 47.98.107.25 \ #指定apiserver ip，一般为内网IP
---apiserver-cert-extra-sans IP \ #指定apiserver 外网IP
---pod-network-cidr 192.168.0.1/16 \ #指定pod网络
-```
+## kubernetes
+
+* kubernetes 安装文档
+* kubernetes 清单文件
+
+## scripts
+
+* 常用脚本和服务的配置文件
